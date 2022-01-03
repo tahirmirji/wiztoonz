@@ -1,17 +1,17 @@
 div.wiztoonz{
-    color: rgb(253, 253, 253);
-    background-color: rgb(233, 96, 17);
-    font-size: larger;
-    }
-    
-    #wiz2 {
-      color: rgb(253, 253, 253);
-    background-color: rgb(31, 219, 31);
-    font-size: larger;
-    }
-    
-    td{
-    color: rgb(253, 253, 253);
-    background-color: crimson;
-    font-size: larger;
-    }
+color: rgb(253, 253, 253);
+background-color: rgb(233, 96, 17);
+font-size: larger;
+}
+
+#wiz2 {
+  color: rgb(253, 253, 253);
+background-color: rgb(31, 219, 31);
+font-size: larger;
+}
+
+td{
+color: rgb(253, 253, 253);
+background-color: crimson;
+font-size: larger;
+}
