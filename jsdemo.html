@@ -2,21 +2,39 @@
 
 <head>
     <title>Js Demo Page</title>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         var a, b, name;
         name = "GARV";
         a = 500;
         b = 200;
        let answer = (a * b / 4);
 
-       let person = { 
+       let person = 
+       { 
            personname: "John",
            age: 20,
+           contact_details: {
+               phone: "000-0000-0000",
+               email: "xyz@gmail.com"
+           }
 
        };
 
-document.write("Hello " + person.personname + ", your age is " + person.age);
-    </script> -->
+    function callText()
+    {
+        document.getElementById("tag1").innerHTML = "Name " + person.personname;
+        document.getElementById("tag2").innerHTML = "Age " + person.age;
+        document.getElementById("tag3").innerHTML = "Email " + person.contact_details.email;
+
+    }
+
+
+     
+
+// document.write("Hello " + person.personname + 
+// ", your age is " + person.age + "Contact Details: " +person.contact_details.email );
+//  
+   </script>
 
 
 
@@ -35,12 +53,22 @@ checkscope();
 </script> -->
 
 
-
-
-
-
 </head>
 <body>
+
+    <button name="btn1" onclick="callText()"> Click here to call function</button>
+    <p id="tag1" style="color: darkblue;">
+
+    </p>
+
+    <p id="tag2" style="color: rgb(233, 137, 12);">
+
+    </p>
+
+    <p id="tag3" style="color: rgb(25, 218, 25);">
+
+    </p>
+
 
 </body>
 </html>
