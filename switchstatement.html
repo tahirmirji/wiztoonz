@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Switch</title>
+        <link rel="stylesheet" href="mystyles.css" type="text/css" />
+    </head>
+    <body>
+
+        <script type="text/javascript">
+            var grade = 'A';
+            document.write("Welcome to the KBC <br/>");
+            document.write("<b>Who won miss universe in 2021?</b> <br/>"); 
+            document.write("<b>A: Xyz </b> <br/>");
+            document.write("<b>B: Xyz </b> <br/>");
+            document.write("<b>C: Xyz </b> <br/>");
+            document.write("<b>D: Xyz </b> <br/>");
+
+            switch(grade)
+            {
+                case 'A' : document.write("You have answered it right, You won 1 Cr<br/>");
+                            document.getElementById("wiz2").innerHTML="You have answered it right, You won 1 Cr";
+                            break;
+                case 'B' : document.write("Sorry, you have lost the game<br/>");
+                            break;
+                case 'C' : document.write("Sorry, you have lost the game<br/>");
+                            break;                            
+                case 'D' : document.write("Sorry, you have lost the game<br/>");
+                            break;
+                default : document.write("You can't choose this option<br/>");
+                            break;
+            }
+            document.write("Thank you for joning and playing the game<br/>");
+
+        </script>
+        <p id="wiz2"> </p>
+    </body>
+</html>
