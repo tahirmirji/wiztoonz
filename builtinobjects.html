@@ -9,13 +9,32 @@
     <body>
 
         <script type="text/javascript">
-            var x=2, y=39, z=3;
+            var x=2, y=39, z=3,i=26;
+
+            //eval
              z += eval("x+y");
-            document.write(z+"<br/>");
+             document.write(z+"<br/>");
 
             // parseInt
             z=parseInt("F",16);
-            document.write(z);
+            document.write(z+"<br/>");
+
+            //parseFloat
+            z=parseFloat("0.0314E+2");
+            document.write(z+"<br/>");
+
+            // escape
+            z=escape("abc&%");
+            document.write(z+"<br/>");
+
+            for(i=0 ; i<150; i++)
+            {
+            //unescape
+            z=unescape("%"+i);
+            document.write(i + z+"<br/>");
+            }
+
+
 
         </script>
     </body>
