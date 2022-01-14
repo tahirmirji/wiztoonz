@@ -14,26 +14,26 @@
 			Wiztoonz Filmora Contest
 		</h1>
 		
-		<p id = "GFG_UP" style =
+		<p id = "UP" style =
 				"font-size: 15px; font-weight: bold;">
 		</p>
 			
-		<button onclick = "gfg_Run()">
+		<button onclick = "Run()">
 			Click here
 		</button>
 		
-		<p id = "GFG_DOWN" style =
+		<p id = "DOWN" style =
 			"font-size: 23px; font-weight: bold; color: green; ">
 		</p>
 		
 		<script>
-			var el_up = document.getElementById("GFG_UP");
-			var el_down = document.getElementById("GFG_DOWN");
+			var el_up = document.getElementById("UP");
+			var el_down = document.getElementById("DOWN");
 			var heading = document.getElementById("h1");
 			el_up.innerHTML = "Click on the button to "
 							+ "change the style attribute";
 			
-			function gfg_Run() {
+			function Run() {
 				heading.style["color"] = "white";
 				heading.style["background-color"] = "green";
 				heading.style["width"] = "300px";
