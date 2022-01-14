@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>
+		How to change style attribute of an element
+		dynamically using JavaScript ?
+	</title>
+</head>
+
+<body style = "text-align:center;" id = "body">
+	
+	<h1 id = "h1" style = "color:green;" >
+		GeeksforGeeks
+	</h1>
+	
+	<p id = "GFG_UP" style =
+			"font-size: 15px; font-weight: bold;">
+	</p>
+		
+	<button onclick = "gfg_Run()">
+		Click here
+	</button>
+	
+	<p id = "GFG_DOWN" style =
+		"font-size: 23px; font-weight: bold; color: green; ">
+	</p>
+	
+	<script>
+		var el_up = document.getElementById("GFG_UP");
+		var el_down = document.getElementById("GFG_DOWN");
+		var heading = document.getElementById("h1");
+		el_up.innerHTML = "Click on the button to "
+						+ "change the style attribute";
+		
+		function gfg_Run() {
+			heading.style["background-color"] = "green";
+			heading.style["color"] = "white";
+			el_down.innerHTML = "Style Attribute Changed";
+		}		
+	</script>
+</body>
+
+</html>

@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="" />
   </head>
-  <body>
+  <body onload="callmeOnEvent()">
     <script type="text/javascript">
       function callmeOnEvent() {
         alert("Event Triggered");
       }
     </script>
+    <marquee bgcolor="yellow"  scrollamount="3"> News: Hi there, have a great day.</marquee>
     <br />
     <a href="#" onclick="callmeOnEvent()">Onclick</a>
 
@@ -21,7 +22,7 @@
     <input type="text" name="emailid" placeholder="Hey! Enter some text and click outside" size="30" onchange="callmeOnEvent()" required />
 
     <br />
-    <a href="#" onmouseover="callmeOnEvent()">onmouseover</a>
+    <a href="#" onmouseover="callmeOnEvent()" >onmouseover</a>
 
     <br />
     <input type="text" name="emailid" placeholder="Try Pressing key on keyboard" onkeydown="callmeOnEvent()" size="30" required />
