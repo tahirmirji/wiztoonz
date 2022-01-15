@@ -1,11 +1,12 @@
 # Introduction to Web Programming
 
 ## Outcomes:
+```
 1. Interpret the HTML tags, CSS and PHP code
 2. Develop and incorporate dynamic capabilities in Web pages using DOM and JavaScript.
 3. Design dynamic web pages using PHP, MySQL, XML
 4. Create and publish web services
-
+```
 ## Module 1: WEB ESSENTIALS AND STYLE SHEETS
 > Clients, Servers, and Communication. The Internet - Basic Internet Protocols -The World Wide Web - HTTP request message - response message - Web Clients - Web Servers - Markup Languages: XHTML. An Introduction to HTML – History –Versions -Basic XHTML Syntax and Semantics - Fundamentals of HTML. CSS - Introduction to Cascading Style Sheets – Features - Core Syntax -Style Sheets and HTML - Cascading and Inheritance - Text Properties – Positioning
 
