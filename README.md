@@ -1,6 +1,6 @@
 # Introduction to Web Programming
 
-Outcomes:
+## Outcomes:
 1. Interpret the HTML tags, CSS and PHP code
 2. Develop and incorporate dynamic capabilities in Web pages using DOM and JavaScript.
 3. Design dynamic web pages using PHP, MySQL, XML
