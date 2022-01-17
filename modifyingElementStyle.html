@@ -7,16 +7,13 @@
   </head>
 
   <body style="text-align: center" id="body">
-    <h1 id="h1" style="color: green">Wiztoonz Film Festival</h1>
+    <h1 id="h1" style="color: rgb(211, 88, 31)">Wiztoonz Film Festival</h1>
 
     <p id="UP" style="font-size: 15px; font-weight: bold"></p>
 
     <button onclick="Run()">Click here</button>
 
-    <p
-      id="DOWN"
-      style="font-size: 23px; font-weight: bold; color: green"
-    ></p>
+    <p id="DOWN" style="font-size: 23px; font-weight: bold; color: green">       </p>
 
     <script>
       var el_up = document.getElementById("UP");
@@ -26,9 +23,9 @@
         "Click on the button to " + "change the style attribute";
 
       function Run() {
-        heading.style["background-color"] = "green";
+        heading.style["background-color"] = "red";
         heading.style["color"] = "white";
-        el_down.innerHTML = "Style Attribute Changed";
+        el_down.innerHTML = "Style Attribute has Changed";
       }
     </script>
   </body>
