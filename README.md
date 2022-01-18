@@ -3,7 +3,7 @@
 ## Software Tools Installations
 
 ### Wamp Local Server Tool:
- [WAMP](Wamp: https://www.wampserver.com/en/
+Wamp: https://www.wampserver.com/en/
 
 ## Outcomes:
 ```
