@@ -2,7 +2,7 @@
 
 ## Software Tools Installations
 
-### Wamp Local Server Tool:
+### Wamp Local Server Tool for PHP:
 Wamp: https://www.wampserver.com/en/
 
 ## Outcomes:
