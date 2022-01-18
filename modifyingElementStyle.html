@@ -13,14 +13,14 @@
 
     <button onclick="Run()">Click here</button>
 
-    <p id="DOWN" style="font-size: 23px; font-weight: bold; color: green">       </p>
+    <p id="DOWN" style="font-size: 23px; font-weight: bold; color: rgb(16, 27, 172)">       </p>
 
     <script>
       var el_up = document.getElementById("UP");
       var el_down = document.getElementById("DOWN");
       var heading = document.getElementById("h1");
-      el_up.innerHTML =
-        "Click on the button to " + "change the style attribute";
+      
+      el_up.innerHTML ="Click on the button to " + "change the style attribute";
 
       function Run() {
         heading.style["background-color"] = "red";

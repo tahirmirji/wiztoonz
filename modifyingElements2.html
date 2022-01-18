@@ -15,8 +15,7 @@
 		</h1>
 		
 		<p id = "UP" style =
-				"font-size: 15px; font-weight: bold;">
-		</p>
+				"font-size: 15px; font-weight: bold;">  	</p>
 			
 		<button onclick = "Run()">
 			Click here
@@ -34,10 +33,13 @@
 							+ "change the style attribute";
 			
 			function Run() {
+
 				heading.style["color"] = "white";
-				heading.style["background-color"] = "green";
-				heading.style["width"] = "300px";
-				heading.style["border"] = "1px solid black";
+				heading.style["background-color"] = "red";
+				heading.style["width"] = "400px";
+				heading.style["border"] = "1px solid green";
+			
+				document.querySelector("h1").title= "Yes we have title active";
 				
 				el_up.style["background-color"] = "green";
 				el_up.style["width"] = "400px";
